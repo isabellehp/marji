@@ -51,5 +51,8 @@
 </div>
 
 <script>
-
+    function updateHealth() {
+        const healthBar = document.getElementById('currentHealth');
+        healthBar.style.width = (bossHealth / 10) + '%';
+    }
 </script>
